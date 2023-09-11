@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+    color: #FFFF;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    padding: 2% 15%;    
+    background-color: #272727;
+}
+
+.cabecalho__nav{
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__nav__link{
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 24px;
+    color: #00ffff;
+}
+
+.principal{
+    padding-top: 10%;
+    display: flex;
+
+}
+
+.principal_conteudo{
+    padding: 8% 0% 0% 15%;
+     display: flex;
+    flex-direction: column;
+    width: 574px;
+    height: 816px;
+}
+
+.perfil{
+    width: 467px;
+    height: 532px;
+    border-radius: 40px;
+}
+
+.titulo{
+    font-family: krona one;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.texto_sobre_mim{
+    font-size: 24px;
+    font-family: montserrat;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer{
+    padding: 24px;
+    background-color: #00ffff;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+}
